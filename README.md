@@ -6,7 +6,7 @@ A custom wordpress theme developed for seanwhitfield.com. This theme is based on
 [seanwhitfield.com/](http://seanwhitfield.com/)
 
 ##CSS
-Custom Sass files: [scss/site](https://github.com/blue-baron/seans-Theme/tree/master/scss/site)
+Custom Sass files: [scss/site](https://github.com/blue-baron/whitfield-cycling-theme/tree/master/scss/site)
 
 ##Contact
 Hilary Seselja
