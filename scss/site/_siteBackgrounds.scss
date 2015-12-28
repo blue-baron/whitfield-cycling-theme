@@ -1,0 +1,62 @@
+@mixin BackgroundSmall {
+  	background-repeat: no-repeat !important;
+	background-color: $body-bg;
+	background-position: center 50px;
+	background-size: 100%;
+}
+
+@mixin BackgroundMedium {
+	background-position: center 40px;
+	background-size: 100%;
+}
+
+@mixin BackgroundLarge {
+	background-position: center 0;
+	background-size: 100%;
+}
+
+@mixin BackgroundXLarge {
+	background-position: center 0;
+	background-size: 80%;
+}
+@mixin BackgroundXXLarge {
+	background-position: center 0;
+	background-size: 55%;
+}
+
+body {
+	@include BackgroundSmall;
+	
+	@media #{$medium-up} {
+		@include BackgroundMedium;
+	}
+	
+	@media #{$large-up} {
+		@include BackgroundXLarge;
+	}
+	
+	@media #{$xxlarge-up}{
+		@include BackgroundXXLarge;
+	}
+}
+body.Home {
+	background-image: url(images/SW_Bkgnd_HOME.jpg);
+}
+body.About{
+	background-image: url(images/SW_Bkgnd_BIO.jpg);
+}
+body.Gallery {
+	background-image: url(images/SW_Bkgnd_HOME.jpg);
+}
+body.Sponsors {
+	background-image: url(images/SW_Bkgnd_SPONSOR.jpg);
+}
+body.blog {
+	background-image: url(images/SW_Bkgnd_BIO.jpg);
+}
+body.single {
+	background-image: url(images/SW_Bkgnd_BIO.jpg);
+}
+body.Contact {
+	background-image: url(images/SW_Bkgnd_CONTACT.jpg);
+}

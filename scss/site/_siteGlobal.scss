@@ -1,0 +1,84 @@
+html {
+	overflow-x: hidden;	
+}
+body {
+	color: $body-font-color;	
+	font-family: $font-family-sans-serif;
+	overflow-x: hidden;
+}
+#wrapper {
+	max-width: $row-width;	
+	margin: 0 auto;
+	padding: 0 25px;
+	
+	@media #{$medium-up} {
+		padding: 0 40px;	
+	}
+}
+.page_title {
+	margin-top: 18%;	
+}
+.main {
+	background: transparentize($storm-blue, .15);
+	margin: 2% -9999px 0;
+	padding: 40px 9999px;	
+}
+.breakout {
+	border: $blockquote-border;
+	padding: 15px 5px;
+	margin: 0 0 40px 0;
+	background: transparentize($primary-color, .7);
+	
+	h3 {
+		font-size: rem-calc(25);	
+	}
+	p {
+		font-size: rem-calc(20);	
+		margin-bottom: 0;
+	}
+	
+	
+	@media #{$medium-up} {
+		padding: 20px;
+	}
+}
+ul img {
+	margin: 0 10px 10px 0;	
+}
+fieldset {
+	background: transparentize($primary-color, .8);	
+}
+fieldset legend {
+	padding: 10px;	
+}
+table {
+	width: 100%;	
+}
+
+
+//----------------TYPOGRAPHY-----------------------//
+h1 {
+	text-shadow: 2px 2px $body-bg;
+}
+h2 {
+	border-bottom: 1px solid $primary-color;	
+	padding-bottom: rem-calc(5);
+	margin-bottom: rem-calc(20);
+}
+h3 {
+	font-family: AmbleBold, Verdana, Geneva, sans-serif;
+	letter-spacing: .05em;
+	text-transform: uppercase;
+}
+h4 {
+	text-transform: uppercase;	
+}
+h5, h6 {
+	font-family: AmbleLightItalic, Verdana, Geneva, sans-serif;	
+}
+strong {
+	font-family: AmbleBold, Verdana, Geneva, sans-serif;	
+}
+em {
+	font-family: AmbleLightItalic, Verdana, Geneva, sans-serif	
+}

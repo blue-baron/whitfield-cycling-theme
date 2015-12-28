@@ -1,0 +1,123 @@
+.meta {
+	width: auto;
+	margin: 0 0 30px 0;
+	padding: 0 0 0 0;
+	.author {
+		border: $blockquote-border;	
+		padding: 10px 15px;
+		margin: 0 10px 0 0;
+	}
+}
+
+.blog,
+.single {
+	article {
+		padding: 40px 5% 40px;
+		background: transparentize($midnight, .2);	
+		border-bottom: transparentize($storm-blue, .15) solid 40px;
+	
+		img {
+			border: $blockquote-border;	
+		}	
+	}
+	
+	h1.page_title {
+			background: transparentize($primary-color, .2);	
+			padding: 5px 5% 5px;
+			font-style: italic;
+			font-weight: bold;
+		}
+}
+#respond {
+	background: transparentize($primary-color, .8);
+	width: 100%;
+	padding: 20px 5%;
+	margin: 20px 0 0 0;
+	color: $white;
+}
+
+.size-auto, 
+.size-full,
+.size-large,
+.size-medium,
+.size-thumbnail {
+	max-width: 100%;
+	height: auto;
+}
+
+.post {}
+
+.entry-content {}
+.entry-content a {}
+.entry-content a:hover {}
+
+#meta {}
+.postmetadata {}
+
+#sidebar {}
+
+.navgation {}
+.next-posts {}
+.prev-posts {}
+
+#searchform {}
+#s {}
+#searchsubmt {}
+	
+ol.commentlist {}
+ol.commentlist li {
+	list-style-type: none;
+	margin-top: 20px;
+	}
+ol.commentlist li.alt {}
+ol.commentlist li.bypostauthor {}
+ol.commentlist li.byuser {}
+ol.commentlist li.comment-author-admin {}
+ol.commentlist li.comment {}
+ol.commentlist li.comment div.comment-author {
+	border: none;
+	background: transparentize($midnight, .6);
+	padding: 15px 10px;
+	width: 100%;
+	}
+ol.commentlist li.comment div.vcard {}
+ol.commentlist li.comment div.vcard cite.fn {}
+ol.commentlist li.comment div.vcard cite.fn a.url {}
+ol.commentlist li.comment div.vcard img.avatar {}
+ol.commentlist li.comment div.vcard img.avatar-32 {}
+ol.commentlist li.comment div.vcard img.photo {}
+ol.commentlist li.comment div.vcard span.says {}
+ol.commentlist li.comment div.commentmetadata {}
+ol.commentlist li.comment div.comment-meta {}
+ol.commentlist li.comment div.comment-meta a {}
+ol.commentlist li.comment p {}
+ol.commentlist li.comment ul {}
+ol.commentlist li.comment div.reply {}
+ol.commentlist li.comment div.reply a {}
+ol.commentlist li.comment ul.children {}
+ol.commentlist li.comment ul.children li {}
+ol.commentlist li.comment ul.children li.alt {}
+ol.commentlist li.comment ul.children li.bypostauthor {}
+ol.commentlist li.comment ul.children li.byuser {}
+ol.commentlist li.comment ul.children li.comment {}
+ol.commentlist li.comment ul.children li.comment-author-admin {}
+ol.commentlist li.comment ul.children li.depth-2 {}
+ol.commentlist li.comment ul.children li.depth-3 {}
+ol.commentlist li.comment ul.children li.depth-4 {}
+ol.commentlist li.comment ul.children li.depth-5 {}
+ol.commentlist li.comment ul.children li.odd {}
+ol.commentlist li.even {}
+ol.commentlist li.odd {}
+ol.commentlist li.parent {}
+ol.commentlist li.thread-alt {}
+ol.commentlist li.thread-even {}
+ol.commentlist li.thread-odd {}
+
+.wp-caption {}
+.wp-caption-text {}
+.sticky {}
+.gallery-caption {}
+.alignright {}
+.alignleft {}
+.aligncenter {}
+

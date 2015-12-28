@@ -1,0 +1,46 @@
+footer {
+	padding: 40px 9999px;
+	margin: 0 -9999px;	
+	background: $midnight;
+	
+	ul {
+		margin: 0;	
+	}
+	li {
+		display: inline-block;
+		text-indent: 0;
+		margin: 0;
+		padding: 0 50px 0 0;
+	}
+	img {
+		max-width: 100%;
+		zoom: 1;
+		filter: alpha(opacity=50);
+		opacity: 0.5;	
+		
+		&:hover {
+			zoom: 1;
+			filter: alpha(opacity=100);
+			opacity: 1.0;	
+			}
+		}
+		
+	span {
+		display: none;
+	}
+	h4 {
+		font-size: rem-calc(16);
+		zoom: 1;
+		filter: alpha(opacity=60);
+		opacity: 0.6;
+	}
+}
+#team,
+#majorSponsor,
+#sponsor {
+	height: 130px;
+	margin-bottom: 20px;
+	img {
+		width: 90%;
+	}
+}

@@ -1,0 +1,44 @@
+// RESPONSIVE LIGHTBOX GALLERY
+.gallery-item {
+	padding: 0 20px 0 0;
+}
+.nivo-lightbox-wrap {
+	border: 1px solid $white;
+	//border: none;
+	background: transparentize($midnight, .2);
+}
+
+
+//SOCIAL STREAM
+.dcwss.dc-wall ul.stream {
+	
+	@media #{$medium-up}{
+		width: 108%;	
+	}
+	@media #{large-up}{
+		width: 104%;	
+	}
+}
+.dcwss.dc-wall.col-4 .stream li {
+	width: 100%;
+	margin-left: 0;
+	margin-bottom: 20px;
+	font-size: .8em;
+	line-height: 1.5em;
+	color: $storm-blue;
+	text-indent: 0;
+	
+	.inner {
+		padding: 10px;	
+	}
+	.section-title {
+		font-size: 1em;
+	}
+	
+	@media #{$medium-up}{
+		width: 45%;
+	}
+	@media #{$large-up}{
+		width: 30%;	
+	}
+}
